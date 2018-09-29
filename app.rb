@@ -18,7 +18,7 @@ module FormsLab
       @ships = params["pirate"]["ships"].map do |ship|
         s = Ship.new(ship) #how do I instantiate these objects properyly?
       end
-      binding.pry
+      
 
       erb :'pirates/show'
     end
