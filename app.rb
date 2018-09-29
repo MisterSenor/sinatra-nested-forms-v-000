@@ -19,7 +19,7 @@ module FormsLab
         s = Ship.new(ship) #how do I instantiate these objects properyly?
         binding.pry
       end
-    
+
 
       erb :'pirates/show'
     end
